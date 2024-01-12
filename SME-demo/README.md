@@ -20,7 +20,7 @@ This project demonstrates the usecase of AMD Secure memory Encryption (SME) tech
 - Navigate to frontend driver:`linux/demo-sme/frontend`
 - Compile the frontend driver : `make`
 - You'll need to embed `frontend_pv.ko` in your initramfs/bzImage.
-- Start the domU: `xl create -c hvm_guest.cfg`. Example of config can be found in this directory.
+- Start the domU: `xl create -c pvh_guest.cfg`. Example of config can be found in this directory.
 - Above command will take you to console of domU. Load frontend module: `insmod frontend_pv.ko`
 
 ### Usage:

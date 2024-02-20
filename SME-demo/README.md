@@ -28,7 +28,7 @@ This project demonstrates the usecase of AMD Secure memory Encryption (SME) tech
 - Get the dom_id from `xl list` and connect the drivers with `activate.sh <dom_id>`
 - You should see proc entries under `/proc/sme`
 - For testing you can write a text to `/proc/sme/sme_text` ane then set the encryption on with `echo "on" > /proc/sme/xenmem_encrypt`
-- To set the encryption use `echo "off" > /proc/sme/xenmem_encrypt` (Note the garbage value in `xl dmesg` before encryption is set to off mode)
+- To set the encryption use `echo "off" > /proc/sme/xenmem_encrypt`
 
 Note that this project is exclusively designed for demonstration purposes, illustrating the integration and utilization of AMD's Secure Memory Encryption (SME) technology in Linux+Xen environments.
 For the production usage, upstream work in Xen will be followed. The details of the project phases can be found [here](https://lists.xenproject.org/archives/html/xen-devel/2023-10/msg02162.html).

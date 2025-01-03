@@ -15,7 +15,8 @@ This project demonstrates the usecase of AMD Secure Virtualization (SEV) technol
 ## Usage
 - Build XTF guest with `make`
 - Execute this command: `./xtf-runner test-hvm64-sev`
-- After the test completes, check the logs via `xl dmesg`. The test output should indicate whether Xen was able to read the guest's secret or not. illustrating the integration and utilization of AMD's Secure Encrypted Virtualization technology(SEV) in Linux+Xen environments. For the production usage, upstream work in Xen is in progress.
+- After the test completes, check the logs via `xl dmesg`. The test output should indicate whether Xen was able to read the guest's secret or not.
 
+Note that this project is exclusively designed for demonstration purposes, illustrating the integration and utilization of AMD's Secure Encrypted Virtualization technology(SEV) in Linux+Xen environments. For the production usage, upstream work in Xen is in progress.
 
 
